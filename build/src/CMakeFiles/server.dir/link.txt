@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/server.dir/__/server_chat.cc.o CMakeFiles/server.dir/Server.cc.o CMakeFiles/server.dir/Epoll.cc.o CMakeFiles/server.dir/ThreadPool.cc.o CMakeFiles/server.dir/Socket.cc.o CMakeFiles/server.dir/error.cc.o -o ../../bin/server  -lpthread 
