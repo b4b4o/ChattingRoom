@@ -4,6 +4,7 @@
 #include <string>
 #include <mutex>
 #include <condition_variable>
+#include <fcntl.h>
 #include "Socket.h"
 
 class Client{
@@ -24,6 +25,7 @@ public:
     ~Client();
     void read_handler();
     void write_handler();
+    void setNonBlock();
     void start();
 };
 

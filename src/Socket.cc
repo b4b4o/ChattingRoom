@@ -34,7 +34,6 @@ Socket::~Socket(){
 
 void Socket::connect_(){
     errif(connect(fd, (struct sockaddr*)&sock_addr, sizeof(sock_addr)), "connect error");
-    printf("connect finished\n");
 }
 int Socket::accept_(){
     socklen_t len = sizeof(sock_addr);
