@@ -1,6 +1,0 @@
-/home/ubuntu/zwbao/code/chatting/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/zwbao/code/chatting/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/zwbao/code/chatting/build/src/CMakeFiles/server.dir
-/home/ubuntu/zwbao/code/chatting/build/src/CMakeFiles/client.dir
-/home/ubuntu/zwbao/code/chatting/build/src/CMakeFiles/edit_cache.dir
-/home/ubuntu/zwbao/code/chatting/build/src/CMakeFiles/rebuild_cache.dir
