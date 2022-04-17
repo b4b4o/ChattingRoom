@@ -3,7 +3,6 @@ TODO :
 lazy pool
 prebuffer
 
-距离赋予奖励Guassion
 
 CMake
 观察者模式 所有订阅者最后都将被close,并且向所有订阅者发送消息
