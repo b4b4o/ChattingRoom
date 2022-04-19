@@ -1,9 +1,11 @@
 #pragma once
 #include <memory>
+#include <unordered_map>
 #include "ThreadPool.h"
 #include "Socket.h"
 #include "Epoll.h"
 #include "ConnecterQueue.h"
+#include "Connecter.h"
 
 class Server{
 
@@ -13,7 +15,10 @@ private:
     std::unique_ptr<ThreadPool> threadpool;
     std::unique_ptr<Socket> sock;
     std::unique_ptr<Epoll> epoll;
-    ConnecterQueue cq;
+    std::unordered_map<int, std::shared_ptr<Connecter_a>> clients;
+    std::unique_ptr<ConnecterQueue_a> chattingroom;
+
+
     int server_fd;
     int epoll_fd;
     char BUFFER[BUFF_LEN];
@@ -25,4 +30,5 @@ public:
     void connect_handler(int client_fd);
     void work_handler();
     void start();
+    void close_client(int client_fd);
 };

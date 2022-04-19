@@ -4,6 +4,8 @@ SET(SRC_LIST
     ./Epoll.cc
     ./ThreadPool.cc
     ./Socket.cc
+    ./ConnecterQueue.cc
+    ./Connecter.cc
     ./error.cc
 )
 
